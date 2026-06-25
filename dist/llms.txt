@@ -1,6 +1,6 @@
 # Aamerican Colleges of Jiu-Jitsu and Karate
 
-Aamerican Colleges of Jiu-Jitsu and Karate is a martial arts school in Henrico, VA offering Aam-Ka Jiu-Jitsu, Brazilian Jiu-Jitsu, Aikido, After-School & Summer Camp for kids, teens, and adults.
+Aamerican Colleges of Jiu-Jitsu and Karate is a martial arts school in Henrico, VA offering Aam-Ka Jiu-Jitsu, Brazilian Jiu-Jitsu, Aikido, Boxing, After-School & Summer Camp for kids, teens, and adults.
 
 ## About
 Aamerican Colleges of Jiu-Jitsu and Karate has been a cornerstone of the Henrico community, building confident, disciplined students through authentic martial arts training.
@@ -9,6 +9,7 @@ Aamerican Colleges of Jiu-Jitsu and Karate has been a cornerstone of the Henrico
 - Aam-Ka Jiu-Jitsu
 - Brazilian Jiu-Jitsu
 - Aikido
+- Boxing
 - After-School & Summer Camp
 
 ## Location

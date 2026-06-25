@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" width="360" height="100">
-  <rect width="360" height="100" fill="transparent"/>
-  <text x="180" y="38" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#D20F2F" text-anchor="middle" letter-spacing="3">AAMERICAN COLLEGES</text>
-  <text x="180" y="68" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" letter-spacing="2">JIU-JITSU &amp; KARATE</text>
-  <line x1="20" y1="78" x2="340" y2="78" stroke="#D20F2F" stroke-width="1.5"/>
-  <text x="180" y="93" font-family="Georgia, serif" font-size="10" fill="#666666" text-anchor="middle" letter-spacing="1">HENRICO, VIRGINIA</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1000"/>
