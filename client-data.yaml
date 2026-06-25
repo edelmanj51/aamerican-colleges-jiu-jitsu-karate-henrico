@@ -1,0 +1,92 @@
+SLUG: "aamerican-colleges-jiu-jitsu-karate-henrico"
+GOOGLE_PLACE_ID: "ChIJ0xAXhZdrsYkROZ_6Ju9dvSo"
+SCHOOL_NAME: "Aamerican Colleges of Jiu-Jitsu and Karate"
+MARTIAL_ART: "Jiu-Jitsu & Karate"
+SITE_URL: "https://rvaselfdefense.com"
+DOMAIN: "rvaselfdefense.com"
+
+CITY: "Henrico"
+STATE: "VA"
+ZIP: "23238"
+ADDRESS_LINE_1: "11250 Patterson Ave"
+
+PHONE: "(804) 651-9388"
+EMAIL: ""
+HOURS: "Mon–Thu 2–9pm · Fri 2–6pm · Sat 8:30–11am · Sun Closed"
+
+YEAR_FOUNDED: ""
+
+PRIMARY_COLOR: "#D20F2F"
+SECONDARY_COLOR: "#222222"
+LOGO_IMAGE: brand_assets/logo.svg
+FACEBOOK_URL: ""
+INSTAGRAM_URL: "https://www.instagram.com/rvaselfdefense/"
+
+HERO_HEADLINE: "Learn to Walk Without Fear."
+HERO_SUBHEADLINE: "Henrico's Premier Martial Arts Academy for Kids, Teens & Adults"
+HERO_SUBTEXT: "Authentic Jiu-Jitsu, Karate, and BJJ — plus After-School Care and Summer Camp. Real training, real results, real community."
+
+SHOW_PROOF_BAR: "true"
+STAR_RATING: "4.7"
+REVIEW_COUNT: "40"
+
+ABOUT_TEXT: "Aamerican Colleges of Jiu-Jitsu and Karate has been a cornerstone of the Henrico community, building confident, disciplined students through authentic martial arts training. Their signature Aam-Ka system blends Karate, BJJ, Judo, and Aikido into one practical self-defense curriculum for all ages."
+
+INSTRUCTOR_1_NAME: "Master Rick"
+INSTRUCTOR_1_TITLE: "Head Instructor & Founder"
+INSTRUCTOR_1_BIO: "Master Rick is the driving force behind Aamerican Colleges of Jiu-Jitsu and Karate, teaching authentic martial arts to the Henrico community for over two decades. His Aam-Ka system — a blend of Karate, Judo, Brazilian Jiu-Jitsu, and Aikido — teaches students to defend themselves effectively at any size, any age."
+
+INSTRUCTOR_2_NAME: "Sensei Katrina"
+INSTRUCTOR_2_TITLE: "Instructor & After-School Director"
+INSTRUCTOR_2_BIO: "Sensei Katrina brings patience, energy, and genuine care to every class and program she leads. Known for her ability to connect with students of all personalities and skill levels, she oversees the after-school care and summer camp programs that have made ACK a trusted home for Richmond-area families."
+
+PROGRAM_1_NAME: "Aam-Ka Jiu-Jitsu"
+PROGRAM_1_AGE_RANGE: "Ages 5 & Up"
+PROGRAM_1_DAYS: "Tue & Thu (Kids) · Mon & Thu (Adults)"
+PROGRAM_1_SESSION_LEN: "60–75 min classes"
+PROGRAM_1_DESCRIPTION: "Our signature martial art blends Karate, Judo, Aikido, and Brazilian Jiu-Jitsu into one complete self-defense system — practical techniques from standing all the way to the ground, built for real life."
+PROGRAM_1_AUDIENCE_KIDS: "1"
+PROGRAM_1_AUDIENCE_ADULTS: "1"
+
+PROGRAM_2_NAME: "Brazilian Jiu-Jitsu"
+PROGRAM_2_AGE_RANGE: "Ages 7 & Up"
+PROGRAM_2_DAYS: "Mon & Wed"
+PROGRAM_2_SESSION_LEN: "60–75 min classes"
+PROGRAM_2_DESCRIPTION: "WBJJA-affiliated BJJ program teaching the art of leverage and submission — kids and adults build real technique, compete in local tournaments, and develop the mental toughness that carries beyond the mat."
+PROGRAM_2_AUDIENCE_KIDS: "1"
+PROGRAM_2_AUDIENCE_ADULTS: "1"
+
+PROGRAM_3_NAME: "Aikido"
+PROGRAM_3_AGE_RANGE: "Ages 13 & Up"
+PROGRAM_3_DAYS: "Tue 7:15pm · Sat 8:30am"
+PROGRAM_3_SESSION_LEN: "75–90 min classes"
+PROGRAM_3_DESCRIPTION: "Affiliated with Shinzui Kan Aikido under Shihan Perry Lambert, this program teaches the flowing, circular art of redirecting force — no strength required, just precise technique and calm focus."
+PROGRAM_3_AUDIENCE_TEENS: "1"
+PROGRAM_3_AUDIENCE_ADULTS: "1"
+
+PROGRAM_4_NAME: "After-School & Summer Camp"
+PROGRAM_4_AGE_RANGE: "Ages 5–14"
+PROGRAM_4_DAYS: "Mon–Fri"
+PROGRAM_4_SESSION_LEN: "After-school & full-day camp"
+PROGRAM_4_DESCRIPTION: "A safe, structured environment combining daily martial arts instruction, homework help, character development, and summer field trips. Trusted by Henrico families for years."
+PROGRAM_4_AUDIENCE_KIDS: "1"
+
+REVIEWER_1_NAME: "Drew & Karyn Dunavant"
+REVIEWER_1_DATE: "6 months ago"
+REVIEWER_1_TEXT: "My husband trained with Master Rick 18 years ago, at age 18. Now at age 36 he's returned with our two oldest kids in the adult class, and it is such a sweet gift. Master Rick and Sensei Katrina are the most genuine, caring souls you'll find and really love the students well."
+
+REVIEWER_2_NAME: "Kalene Scott"
+REVIEWER_2_DATE: "6 months ago"
+REVIEWER_2_TEXT: "My son has had an absolutely incredible experience at Aamerican Colleges of Jiu Jitsu and Karate. Their approach balances discipline, respect, and fun in a way that keeps students fully engaged while helping them grow both physically and mentally. My son has grown exponentially in all aspects of his life."
+
+REVIEWER_3_NAME: "Carrie Finch"
+REVIEWER_3_DATE: "8 months ago"
+REVIEWER_3_TEXT: "All 3 of my children have attended both after-school care and summer programs over the past 8 years! Master Rick and Sensei Katrina are wonderful and they run a fantastic program! The kids not only learn self-defense through jiu jitsu and karate, but participate in a variety of other activities as well!"
+
+TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-before-build"
+
+PRIVACY_POLICY_URL: "https://rvaselfdefense.com/privacy"
