@@ -93,6 +93,77 @@ REVIEWER_3_NAME: "Carrie Finch"
 REVIEWER_3_DATE: "8 months ago"
 REVIEWER_3_TEXT: "All 3 of my children have attended both after-school care and summer programs over the past 8 years! Master Rick and Sensei Katrina are wonderful and they run a fantastic program! The kids not only learn self-defense through jiu jitsu and karate, but participate in a variety of other activities as well!"
 
+CLASS_SCHEDULE_HTML: |
+  <table class="sched" role="table" aria-label="Weekly class schedule">
+    <colgroup><col style="width:30%"><col style="width:11.7%"><col style="width:11.7%"><col style="width:11.7%"><col style="width:11.7%"><col style="width:11.7%"><col style="width:11.7%"></colgroup>
+    <thead><tr><th scope="col">Program</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Aam-Ka Jiu-Jitsu (Kids)<br><small style="color:#64748b">Ages 5+ &middot; 60 min</small></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot kids">6:00–7:00 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot kids">6:00–7:00 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+      </tr>
+      <tr>
+        <td>Brazilian Jiu-Jitsu (Kids)<br><small style="color:#64748b">Ages 7+ &middot; 60 min</small></td>
+        <td><span class="time-slot kids">6:00–7:00 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot kids">6:00–7:00 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+      </tr>
+      <tr>
+        <td>Boxing (Kids)<br><small style="color:#64748b">Ages 5+ &middot; 60 min</small></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot kids">10:00–11:00 AM</span></td>
+      </tr>
+      <tr>
+        <td>Aam-Ka Jiu-Jitsu (Adults)<br><small style="color:#64748b">Ages 18+ &middot; 60–75 min</small></td>
+        <td><span class="time-slot adult">7:00–8:00 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot adult">7:15–8:30 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+      </tr>
+      <tr>
+        <td>Brazilian Jiu-Jitsu (Adults)<br><small style="color:#64748b">Ages 18+ &middot; 60–75 min</small></td>
+        <td><span class="time-slot adult">8:00–9:00 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot adult">7:15–8:30 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+      </tr>
+      <tr>
+        <td>Aikido<br><small style="color:#64748b">Ages 13+ &middot; 75–90 min</small></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot teens">7:15–8:30 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot teens">8:30–10:00 AM</span></td>
+      </tr>
+      <tr>
+        <td>Boxing (Adults)<br><small style="color:#64748b">Ages 18+ &middot; 60 min</small></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-empty">—</span></td>
+        <td><span class="time-slot adult">6:00–7:00 PM</span></td>
+        <td><span class="time-empty">—</span></td>
+      </tr>
+    </tbody>
+  </table>
+
 TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
 STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
 QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
