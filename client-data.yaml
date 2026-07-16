@@ -164,10 +164,10 @@ CLASS_SCHEDULE_HTML: |
     </tbody>
   </table>
 
-TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-before-build"
+TRIAL_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/H4vWyzInhNUE5lNIoGgm/webhook-trigger/GTLE6ZY1T099KR3qaNlF"
+STARTER_KIT_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/H4vWyzInhNUE5lNIoGgm/webhook-trigger/GTLE6ZY1T099KR3qaNlF"
+QUIZ_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/H4vWyzInhNUE5lNIoGgm/webhook-trigger/GTLE6ZY1T099KR3qaNlF"
+FINAL_CTA_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/H4vWyzInhNUE5lNIoGgm/webhook-trigger/GTLE6ZY1T099KR3qaNlF"
+BOOKING_CALENDAR_URL: "https://api.leadconnectorhq.com/widget/group/9Wt1kZHPv3YctjEzmjPm"
 
 PRIVACY_POLICY_URL: "https://rvaselfdefense.com/privacy"
