@@ -40,7 +40,7 @@ const data = yaml.load(fs.readFileSync('client-data.yaml', 'utf8')) || {};
 const IMG_EXT_QC = /\.(jpg|jpeg|webp|png|gif|avif)$/i;
 const IMAGE_SLOTS_QC = [
   { folder: 'images/hero',                    token: 'HERO_IMAGE',         prefer: ['hero.jpg', 'hero.webp', 'hero.png'] },
-  { folder: 'images/instructor/instructor-1', token: 'INSTRUCTOR_1_PHOTO', prefer: [] },
+  { folder: 'images/instructors/instructor-1', token: 'INSTRUCTOR_1_PHOTO', prefer: [] },
 ];
 for (const { folder, token, prefer } of IMAGE_SLOTS_QC) {
   if (!data[token] && fs.existsSync(folder)) {

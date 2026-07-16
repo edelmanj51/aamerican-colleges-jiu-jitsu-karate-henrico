@@ -65,9 +65,9 @@ try {
 //   programs/   → main.jpg  (or main.webp, main.png) inside each program-N/
 const IMAGE_SLOTS = [
   { folder: 'images/hero',                    token: 'HERO_IMAGE',         prefer: ['hero.jpg', 'hero.webp', 'hero.png'] },
-  { folder: 'images/instructor/instructor-1', token: 'INSTRUCTOR_1_PHOTO', prefer: [] },
-  { folder: 'images/instructor/instructor-2', token: 'INSTRUCTOR_2_PHOTO', prefer: [] },
-  { folder: 'images/instructor/instructor-3', token: 'INSTRUCTOR_3_PHOTO', prefer: [] },
+  { folder: 'images/instructors/instructor-1', token: 'INSTRUCTOR_1_PHOTO', prefer: [] },
+  { folder: 'images/instructors/instructor-2', token: 'INSTRUCTOR_2_PHOTO', prefer: [] },
+  { folder: 'images/instructors/instructor-3', token: 'INSTRUCTOR_3_PHOTO', prefer: [] },
   { folder: 'images/programs/program-1',      token: 'PROGRAM_1_PHOTO',    prefer: ['main.jpg', 'main.webp', 'main.png'] },
   { folder: 'images/programs/program-2',      token: 'PROGRAM_2_PHOTO',    prefer: ['main.jpg', 'main.webp', 'main.png'] },
   { folder: 'images/programs/program-3',      token: 'PROGRAM_3_PHOTO',    prefer: ['main.jpg', 'main.webp', 'main.png'] },
