@@ -67,7 +67,7 @@ PROGRAM_3_AUDIENCE_ADULTS: "1"
 PROGRAM_4_NAME: "Boxing"
 PROGRAM_4_PHOTO: images/stock/program-1.webp
 PROGRAM_4_AGE_RANGE: "Ages 5 & Up"
-PROGRAM_4_DAYS: "Kids: Sat 10–11am · Adults: Fri 6–7pm"
+PROGRAM_4_DAYS: "Kids: Sat 11am–12pm · Adults: Fri 6–7pm"
 PROGRAM_4_SESSION_LEN: "60 min classes"
 PROGRAM_4_DESCRIPTION: "Fundamentals of boxing taught in a safe, structured environment — footwork, combinations, defense, and conditioning. A great standalone class or complement to your grappling training."
 PROGRAM_4_AUDIENCE_KIDS: "1"
@@ -123,7 +123,7 @@ CLASS_SCHEDULE_HTML: |
         <td><span class="time-empty">—</span></td>
         <td><span class="time-empty">—</span></td>
         <td><span class="time-empty">—</span></td>
-        <td><span class="time-slot kids">10:00–11:00 AM</span></td>
+        <td><span class="time-slot kids">11:00 AM–12:00 PM</span></td>
       </tr>
       <tr>
         <td>Aam-Ka Jiu-Jitsu (Adults)<br><small style="color:#64748b">Ages 18+ &middot; 60–75 min</small></td>
