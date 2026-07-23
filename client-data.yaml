@@ -20,11 +20,20 @@ PRIMARY_COLOR: "#D20F2F"
 SECONDARY_COLOR: "#222222"
 LOGO_IMAGE: brand_assets/logo.svg
 FACEBOOK_URL: ""
-INSTAGRAM_URL: "https://www.instagram.com/rvaselfdefense/"
+INSTAGRAM_URL: "https://www.instagram.com/rvamartialarts/"
 
 HERO_HEADLINE: "Learn to Walk Without Fear."
 HERO_SUBHEADLINE: "Henrico's Premier Martial Arts Academy for Kids, Teens & Adults"
 HERO_SUBTEXT: "Authentic Jiu-Jitsu, Karate, and BJJ — plus After-School Care and Summer Camp. Real training, real results, real community."
+
+# Re-enrollment registries for existing members — separate from the free-trial
+# flow above. Shown as a secondary row under the hero CTAs.
+EVENING_REGISTRY_URL: "https://sparkpages.io/forms/?frm=_fOv"
+AFTER_SCHOOL_REGISTRY_URL: "https://sparkpages.io/forms/?frm=_8zx"
+SUMMER_CAMP_REGISTRY_URL: "https://sparkpages.io/forms/?frm=_P1u"
+
+# Brand story video — embedded directly below the hero on the homepage.
+BRAND_VIDEO_EMBED_URL: "https://www.youtube.com/embed/DGhbwpnIvRc"
 
 SHOW_PROOF_BAR: "true"
 STAR_RATING: "4.7"
@@ -80,6 +89,17 @@ PROGRAM_5_DAYS: "Mon–Fri"
 PROGRAM_5_SESSION_LEN: "After-school & full-day camp"
 PROGRAM_5_DESCRIPTION: "A safe, structured environment combining daily martial arts instruction, homework help, character development, and summer field trips. Trusted by Henrico families for years."
 PROGRAM_5_AUDIENCE_KIDS: "1"
+# Re-enrollment links for existing After-School / Summer Camp families — this is
+# the only program page these appear on. See GENERIC_MAP in fill-template.js
+# (PROGRAM_REGISTRY_HTML -> PROGRAM_N_REGISTRY_HTML) for how this gets picked up.
+PROGRAM_5_REGISTRY_HTML: |
+  <div class="final-registry">
+    <span class="final-registry-label">Already enrolled? Re-register here:</span>
+    <div class="final-registry-links">
+      <a class="btn btn-ghost btn-sm" href="https://sparkpages.io/forms/?frm=_8zx" target="_blank" rel="noopener">After School Registry</a>
+      <a class="btn btn-ghost btn-sm" href="https://sparkpages.io/forms/?frm=_P1u" target="_blank" rel="noopener">Summer Camp Registry</a>
+    </div>
+  </div>
 
 REVIEWER_1_NAME: "Drew & Karyn Dunavant"
 REVIEWER_1_DATE: "6 months ago"
