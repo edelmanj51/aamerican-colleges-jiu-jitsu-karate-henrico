@@ -12,7 +12,7 @@ ADDRESS_LINE_1: "11250 Patterson Ave"
 
 PHONE: "(804) 651-9388"
 EMAIL: ""
-HOURS: "Mon–Thu 6–9pm · Fri 6–7pm (Boxing) · Sat 8:30–11am · Sun Closed"
+HOURS: "Mon–Thu 6–9pm · Sat 8:30–11am · Sun Closed"
 
 YEAR_FOUNDED: ""
 
@@ -59,7 +59,7 @@ PROGRAM_1_AUDIENCE_ADULTS: "1"
 
 PROGRAM_2_NAME: "Brazilian Jiu-Jitsu"
 PROGRAM_2_AGE_RANGE: "Ages 7 & Up"
-PROGRAM_2_DAYS: "Kids: Mon & Wed 6–7pm · Adults: Wed 7:15–8:30pm · Mon 8–9pm"
+PROGRAM_2_DAYS: "Kids: Mon & Wed 6–7pm · Adults: Mon 8–9pm · Wed 7:15–8:30pm"
 PROGRAM_2_SESSION_LEN: "60–75 min classes"
 PROGRAM_2_DESCRIPTION: "WBJJA-affiliated BJJ program teaching the art of leverage and submission — kids and adults build real technique, compete in local tournaments, and develop the mental toughness that carries beyond the mat."
 PROGRAM_2_AUDIENCE_KIDS: "1"
@@ -74,9 +74,8 @@ PROGRAM_3_AUDIENCE_TEENS: "1"
 PROGRAM_3_AUDIENCE_ADULTS: "1"
 
 PROGRAM_4_NAME: "Boxing"
-PROGRAM_4_PHOTO: images/stock/program-1.webp
 PROGRAM_4_AGE_RANGE: "Ages 5 & Up"
-PROGRAM_4_DAYS: "Kids: Sat 11am–12pm · Adults: Fri 6–7pm"
+PROGRAM_4_DAYS: "Kids: Sat 11am–12pm"
 PROGRAM_4_SESSION_LEN: "60 min classes"
 PROGRAM_4_DESCRIPTION: "Fundamentals of boxing taught in a safe, structured environment — footwork, combinations, defense, and conditioning. A great standalone class or complement to your grappling training."
 PROGRAM_4_AUDIENCE_KIDS: "1"
@@ -171,15 +170,6 @@ CLASS_SCHEDULE_HTML: |
         <td><span class="time-empty">—</span></td>
         <td><span class="time-empty">—</span></td>
         <td><span class="time-slot teens">8:30–10:00 AM</span></td>
-      </tr>
-      <tr>
-        <td>Boxing (Adults)<br><small style="color:#64748b">Ages 18+ &middot; 60 min</small></td>
-        <td><span class="time-empty">—</span></td>
-        <td><span class="time-empty">—</span></td>
-        <td><span class="time-empty">—</span></td>
-        <td><span class="time-empty">—</span></td>
-        <td><span class="time-slot adult">6:00–7:00 PM</span></td>
-        <td><span class="time-empty">—</span></td>
       </tr>
     </tbody>
   </table>
