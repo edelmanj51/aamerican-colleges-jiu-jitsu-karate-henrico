@@ -85,6 +85,12 @@
       background: var(--secondary); color: var(--white);
       transform: translateY(-2px); box-shadow: var(--shadow);
     }
+    .btn-registry-red   { background: #D20F2F; color: var(--white); border: 2px solid #D20F2F; }
+    .btn-registry-white { background: #FFFFFF; color: #1A1A1A; border: 2px solid #FFFFFF; }
+    .btn-registry-blue  { background: #0A3161; color: var(--white); border: 2px solid #0A3161; }
+    .btn-registry-red:hover, .btn-registry-white:hover, .btn-registry-blue:hover {
+      transform: translateY(-2px); box-shadow: var(--shadow); opacity: .88;
+    }
 
     /* ============================================================
        SCROLL-REVEAL
@@ -870,9 +876,9 @@
     <div class="hero-registry">
       <span class="hero-registry-label">Already a member? Re-enroll here:</span>
       <div class="hero-registry-links">
-        <a class="btn btn-ghost btn-sm" href="https://sparkpages.io/forms/?frm=_fOv" target="_blank" rel="noopener">Evening Class Registry</a>
-        <a class="btn btn-ghost btn-sm" href="https://sparkpages.io/forms/?frm=_8zx" target="_blank" rel="noopener">After School Registry</a>
-        <a class="btn btn-ghost btn-sm" href="https://sparkpages.io/forms/?frm=_Q1u" target="_blank" rel="noopener">Summer Camp Registry</a>
+        <a class="btn btn-sm btn-registry-red" href="https://sparkpages.io/forms/?frm=_fOv" target="_blank" rel="noopener">Evening Class Registry</a>
+        <a class="btn btn-sm btn-registry-white" href="https://sparkpages.io/forms/?frm=_8zx" target="_blank" rel="noopener">After School Registry</a>
+        <a class="btn btn-sm btn-registry-blue" href="https://sparkpages.io/forms/?frm=_Q1u" target="_blank" rel="noopener">Summer Camp Registry</a>
       </div>
     </div>
     
