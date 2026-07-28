@@ -352,6 +352,8 @@ if (fs.existsSync('program-template.html')) {
     ['PROGRAM_AUDIENCE_TEENS',  n => `PROGRAM_${n}_AUDIENCE_TEENS`],
     ['PROGRAM_AUDIENCE_ADULTS', n => `PROGRAM_${n}_AUDIENCE_ADULTS`],
     ['PROGRAM_REGISTRY_HTML',   n => `PROGRAM_${n}_REGISTRY_HTML`],
+    ['PROGRAM_CTA_LABEL',       n => `PROGRAM_${n}_CTA_LABEL`],
+    ['PROGRAM_CTA_HEADING',     n => `PROGRAM_${n}_CTA_HEADING`],
   ];
 
   for (let n = 1; n <= 6; n++) {

@@ -56,6 +56,8 @@ PROGRAM_1_SESSION_LEN: "60–75 min classes"
 PROGRAM_1_DESCRIPTION: "Our signature martial art blends Karate, Judo, Aikido, and Brazilian Jiu-Jitsu into one complete self-defense system — practical techniques from standing all the way to the ground, built for real life."
 PROGRAM_1_AUDIENCE_KIDS: "1"
 PROGRAM_1_AUDIENCE_ADULTS: "1"
+PROGRAM_1_CTA_LABEL: "Book Free Trial"
+PROGRAM_1_CTA_HEADING: "Your First Class Is Free."
 
 PROGRAM_2_NAME: "Brazilian Jiu-Jitsu"
 PROGRAM_2_AGE_RANGE: "Ages 7 & Up"
@@ -64,6 +66,8 @@ PROGRAM_2_SESSION_LEN: "60–75 min classes"
 PROGRAM_2_DESCRIPTION: "WBJJA-affiliated BJJ program teaching the art of leverage and submission — kids and adults build real technique, compete in local tournaments, and develop the mental toughness that carries beyond the mat."
 PROGRAM_2_AUDIENCE_KIDS: "1"
 PROGRAM_2_AUDIENCE_ADULTS: "1"
+PROGRAM_2_CTA_LABEL: "Book Free Trial"
+PROGRAM_2_CTA_HEADING: "Your First Class Is Free."
 
 PROGRAM_3_NAME: "Aikido"
 PROGRAM_3_AGE_RANGE: "Ages 13 & Up"
@@ -72,8 +76,11 @@ PROGRAM_3_SESSION_LEN: "75–90 min classes"
 PROGRAM_3_DESCRIPTION: "Affiliated with Shinzui Kan Aikido under Shihan Perry Lambert, this program teaches the flowing, circular art of redirecting force — no strength required, just precise technique and calm focus."
 PROGRAM_3_AUDIENCE_TEENS: "1"
 PROGRAM_3_AUDIENCE_ADULTS: "1"
+PROGRAM_3_CTA_LABEL: "Book Free Trial"
+PROGRAM_3_CTA_HEADING: "Your First Class Is Free."
 
 PROGRAM_4_NAME: "Boxing"
+PROGRAM_4_PHOTO: images/programs/program-4/main.jpg
 PROGRAM_4_AGE_RANGE: "Ages 5 & Up"
 PROGRAM_4_DAYS: "Kids: Sat 11am–12pm"
 PROGRAM_4_SESSION_LEN: "60 min classes"
@@ -81,6 +88,8 @@ PROGRAM_4_DESCRIPTION: "Fundamentals of boxing taught in a safe, structured envi
 PROGRAM_4_AUDIENCE_KIDS: "1"
 PROGRAM_4_AUDIENCE_TEENS: "1"
 PROGRAM_4_AUDIENCE_ADULTS: "1"
+PROGRAM_4_CTA_LABEL: "Book Free Trial"
+PROGRAM_4_CTA_HEADING: "Your First Class Is Free."
 
 PROGRAM_5_NAME: "After-School & Summer Camp"
 PROGRAM_5_AGE_RANGE: "Ages 5–14"
@@ -88,6 +97,8 @@ PROGRAM_5_DAYS: "Mon–Fri"
 PROGRAM_5_SESSION_LEN: "After-school & full-day camp"
 PROGRAM_5_DESCRIPTION: "A safe, structured environment combining daily martial arts instruction, homework help, character development, and summer field trips. Trusted by Henrico families for years."
 PROGRAM_5_AUDIENCE_KIDS: "1"
+PROGRAM_5_CTA_LABEL: "Book an Introductory Call"
+PROGRAM_5_CTA_HEADING: "Book Your Introductory Call."
 # Re-enrollment links for existing After-School / Summer Camp families — this is
 # the only program page these appear on. See GENERIC_MAP in fill-template.js
 # (PROGRAM_REGISTRY_HTML -> PROGRAM_N_REGISTRY_HTML) for how this gets picked up.
