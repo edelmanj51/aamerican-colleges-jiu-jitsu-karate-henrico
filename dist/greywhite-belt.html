@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grey/White Belt Videos | Aamerican Colleges of Jiu-Jitsu and Karate Martial Arts in Henrico</title>
+  <meta name="description" content="Grey/White Belt BJJ curriculum videos for Aamerican Colleges of Jiu-Jitsu and Karate members.">
+  <meta name="robots" content="noindex, nofollow">
+  <script>
+    if (sessionStorage.getItem('bjj_videos_unlocked') !== 'true') { location.replace('bjj-videos.html'); }
+  </script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;font-size:16px}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,'Helvetica Neue',Arial,sans-serif;color:#1a1a2e;line-height:1.6;overflow-x:hidden}
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    button{cursor:pointer;border:none;outline:none;font-family:inherit}
+    ul{list-style:none}
+    :root{
+      --primary:        #D20F2F;
+      --primary-dark:   color-mix(in srgb, #D20F2F 80%, black);
+      --secondary:      #222222;
+      --secondary-dark: color-mix(in srgb, #222222 80%, black);
+      --secondary-light:color-mix(in srgb, #222222 15%, white);
+      --red:var(--primary);--red-dark:var(--primary-dark);--blue:var(--secondary);--blue-dark:var(--secondary-dark);--blue-light:var(--secondary-light);
+      --dark:#0f172a;--dark-2:#1e293b;--gray:#64748b;
+      --gray-light:#e2e8f0;--light:#f8fafc;--white:#ffffff;
+      --radius:8px;--radius-lg:12px;
+      --shadow:0 4px 20px rgba(0,0,0,.10);--shadow-lg:0 8px 40px rgba(0,0,0,.15);
+      --transition:all .2s ease
+    }
+    .container{max-width:1200px;margin:0 auto;padding:0 24px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 28px;border-radius:var(--radius);font-size:16px;font-weight:700;text-align:center;transition:var(--transition);cursor:pointer;white-space:nowrap}
+    .btn-primary{background:var(--red);color:var(--white);border:2px solid var(--red)}
+    .btn-primary:hover{background:var(--red-dark);border-color:var(--red-dark);transform:translateY(-2px);box-shadow:var(--shadow)}
+    /* ── Header ── */
+    #header{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--white);box-shadow:0 2px 20px rgba(0,0,0,.07);transition:box-shadow .3s}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+    .logo{display:flex;align-items:center;gap:10px;font-size:21px;font-weight:900;color:var(--dark);white-space:nowrap;letter-spacing:-.4px;flex-shrink:0}
+    #main-nav{display:flex;align-items:center;gap:4px;flex:1;justify-content:center}
+    #main-nav>a,.nav-dropdown>a{padding:8px 13px;border-radius:6px;font-weight:600;font-size:15px;color:var(--dark-2);transition:var(--transition);display:flex;align-items:center;gap:4px}
+    #main-nav>a:hover,.nav-dropdown>a:hover{background:var(--light);color:var(--blue)}
+    .nav-dropdown{position:relative}
+    .nav-dropdown>a::after{content:'▾';font-size:10px;opacity:.7}
+    .dropdown-menu{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(-8px);background:var(--white);border-radius:10px;box-shadow:var(--shadow-lg);min-width:210px;padding:8px;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .2s ease}
+    .nav-dropdown.open .dropdown-menu{opacity:1;pointer-events:all;transform:translateX(-50%) translateY(0)}
+    .dropdown-menu a{display:block;padding:10px 14px;border-radius:6px;font-size:14px;font-weight:500;color:var(--dark-2);transition:var(--transition)}
+    .dropdown-menu a:hover{background:var(--light);color:var(--blue)}
+    .header-cta{padding:10px 22px;font-size:15px;flex-shrink:0}
+    .nav-toggle{display:none;background:none;border:none;padding:8px;flex-direction:column;gap:5px}
+    .nav-toggle span{display:block;width:22px;height:2px;background:var(--dark);transition:.3s;border-radius:2px}
+    .nav-toggle.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .nav-toggle.active span:nth-child(2){opacity:0}
+    .nav-toggle.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    @media(max-width:900px){
+      #main-nav{display:none;flex-direction:column;align-items:flex-start;position:absolute;top:72px;left:0;right:0;background:var(--white);padding:12px 20px 20px;box-shadow:var(--shadow-lg);border-top:1px solid var(--gray-light);gap:2px}
+      #main-nav.open{display:flex}
+      #main-nav>a,.nav-dropdown>a{width:100%}
+      .nav-dropdown .dropdown-menu{position:static;opacity:1;pointer-events:all;transform:none;box-shadow:none;border-left:3px solid var(--blue-light);border-radius:0;padding:4px 0 4px 12px;min-width:auto}
+      .nav-toggle{display:flex}
+      .header-cta{display:none}
+    }
+    /* ── Belt subnav ── */
+    .belt-subnav{background:var(--light);border-bottom:1px solid var(--gray-light);padding-top:72px}
+    .belt-subnav-inner{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:18px 24px}
+    .belt-subnav-inner>a{font-size:14px;font-weight:600;color:var(--gray)}
+    .belt-subnav-inner>a:hover{color:var(--blue)}
+    .belt-subnav-sep{color:#c7d0dc;font-size:14px}
+    .belt-subnav-link{padding:6px 14px;border-radius:20px;background:var(--white);border:1.5px solid var(--gray-light);font-size:14px;font-weight:600;color:var(--dark-2)}
+    .belt-subnav-link:hover{border-color:var(--blue);color:var(--blue)}
+    .belt-subnav-link.active{background:var(--blue);border-color:var(--blue);color:#fff!important}
+    /* ── Belt page ── */
+    .belt-page{padding:40px 24px 100px}
+    .belt-title{font-size:clamp(28px,4vw,44px);font-weight:900;color:var(--dark);margin-bottom:8px}
+    .belt-page-sub{font-size:15px;color:var(--gray);margin-bottom:40px}
+    .stripe-block{margin-bottom:44px}
+    .stripe-heading{font-size:15px;font-weight:800;color:var(--white);background:var(--blue);display:inline-block;padding:8px 18px;border-radius:20px;margin-bottom:16px;letter-spacing:.3px}
+    .video-list{display:flex;flex-direction:column;gap:10px}
+    .video-item{display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:var(--radius);border:1.5px solid var(--gray-light);background:var(--white);transition:var(--transition)}
+    .video-item:hover{border-color:var(--blue);box-shadow:var(--shadow)}
+    .video-num{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:var(--light);color:var(--gray);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+    .video-link{flex:1;font-size:15px;font-weight:600;color:var(--dark);display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .video-link::after{content:'▶ Watch';flex-shrink:0;font-size:12px;font-weight:700;color:var(--blue);letter-spacing:.3px}
+    .video-link:hover{color:var(--blue)}
+    .video-item--noLink{opacity:.65}
+    .video-title-only{flex:1;font-size:15px;color:var(--gray);font-style:italic}
+    /* ── Scroll reveal ── */
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .55s ease,transform .55s ease}
+    .reveal.visible{opacity:1;transform:translateY(0)}
+    /* ── Footer ── */
+    #footer{background:#06101e;color:rgba(255,255,255,.72);padding:64px 24px 28px}
+    .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.1fr;gap:48px;max-width:1200px;margin:0 auto 52px}
+    @media(max-width:960px){.footer-grid{grid-template-columns:1fr 1fr;gap:36px}}
+    @media(max-width:600px){.footer-grid{grid-template-columns:1fr}}
+    .footer-brand .logo{color:white;margin-bottom:16px}
+    .footer-brand p{font-size:14px;line-height:1.75;opacity:.65;margin-bottom:22px}
+    .social-links{display:flex;gap:10px}
+    .social-link{width:38px;height:38px;border-radius:8px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;transition:var(--transition)}
+    .social-link:hover{background:var(--blue)}
+    .social-link svg{width:17px;height:17px;fill:white}
+    .footer-col h3{font-size:13px;font-weight:700;color:white;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:18px}
+    .footer-col ul li{margin-bottom:10px}
+    .footer-col ul li a{font-size:14px;transition:color .2s}
+    .footer-col ul li a:hover{color:white}
+    .footer-contact-row{display:flex;align-items:flex-start;gap:10px;margin-bottom:14px;font-size:14px;line-height:1.55}
+    .footer-contact-row svg{width:16px;height:16px;fill:#60a5fa;flex-shrink:0;margin-top:2px}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.09);padding-top:24px;max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+    .footer-bottom p{font-size:13px;opacity:.55}
+    .footer-legal{display:flex;gap:20px}
+    .footer-legal a{font-size:13px;opacity:.45;transition:opacity .2s}
+    .footer-legal a:hover{opacity:1}
+  </style>
+</head>
+<body>
+
+<header id="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="brand_assets/logo.svg" alt="" aria-hidden="true" height="48" style="height:48px;width:auto;display:block">
+      </a>
+      <nav id="main-nav" role="navigation" aria-label="Main navigation">
+        <a href="#" onclick="openModal('modal-kit');return false">Pricing</a>
+        <div class="nav-dropdown">
+          <a href="programs.html">Programs</a>
+          <div class="dropdown-menu">
+            <a href="program-1.html">Aam-Ka Jiu-Jitsu</a>
+            <a href="program-2.html">Brazilian Jiu-Jitsu</a>
+            <a href="program-3.html">Aikido</a>
+            <a href="program-4.html">Boxing</a>
+            <a href="program-5.html">After-School & Summer Camp</a>
+            
+          </div>
+        </div>
+        <a href="quick-tour.html">Quick Tour</a>
+        <div class="nav-dropdown">
+          <a href="#">More</a>
+          <div class="dropdown-menu">
+            <a href="schedules.html">Member Schedules</a>
+            <a href="news.html">News</a>
+            <a href="bjj-videos.html">BJJ Videos</a>
+          </div>
+        </div>
+      </nav>
+      <button class="btn btn-primary header-cta" onclick="openModal('modal-trial')">Get Started</button>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="belt-subnav">
+  <div class="container belt-subnav-inner">
+    <a href="bjj-videos.html">BJJ Videos</a>
+    <span class="belt-subnav-sep">/</span>
+    <a href="white-belt.html" class="belt-subnav-link">White Belt</a>
+    <a href="greywhite-belt.html" class="belt-subnav-link active">Grey/White Belt</a>
+  </div>
+</div>
+
+<main class="belt-page">
+  <div class="container">
+    <h1 class="belt-title reveal">Grey/White Belt</h1>
+    <p class="belt-page-sub reveal">Curriculum videos grouped by stripe. Click any title to watch on YouTube.</p>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">No Stripe</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/XFsucMYGwME" target="_blank" rel="noopener">Bridge-Hip Elevation (Advanced)</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/o5kcdYTujHE" target="_blank" rel="noopener">Defense to Poor O-Soto Gari</a></li>
+        <li class="video-item"><span class="video-num">3</span><a class="video-link" href="https://youtu.be/7xxxCWg4uO0" target="_blank" rel="noopener">Escape from 1st Immob. - Rolling Out</a></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/eGNdSQW3l_A" target="_blank" rel="noopener">Escape from 1st Immob. - Leg Over Head</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/jyA7PlzBGqo" target="_blank" rel="noopener">Escape from Mount w/ Head Control</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/sncnLRJS77g" target="_blank" rel="noopener">Armbar from 1st Immob. - Same Side</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/S5UWXhM9Q_M" target="_blank" rel="noopener">Jiu-Jitsu Stand Up</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/JPE9I4WgqxY" target="_blank" rel="noopener">Kumura from Side Control</a></li>
+        <li class="video-item video-item--noLink"><span class="video-num">9</span><span class="video-title-only">Text — placeholder in source, no video link (confirm with client what belongs here)</span></li>
+      </ul>
+    </section>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">One Stripe</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/vmPvyfWIXrU" target="_blank" rel="noopener">Cross Choke on Mount</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/7uzn9aAOiCI" target="_blank" rel="noopener">Double-Under Escape from Mount</a></li>
+        <li class="video-item"><span class="video-num">3</span><a class="video-link" href="https://youtu.be/L1tbvtIhI9Q" target="_blank" rel="noopener">Guard Fencing</a></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/2A2yiKZJB64" target="_blank" rel="noopener">Lapel Choke "A"</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/1KQyizLDYj0" target="_blank" rel="noopener">1st to 2nd Immobilization</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/60DHX6LohRY" target="_blank" rel="noopener">Americana from Mount</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/Jk694M6Z5dk" target="_blank" rel="noopener">Armbar from Mount</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/acTz-hAUheE" target="_blank" rel="noopener">Armbar from Mount - Opp. Pushing Up</a></li>
+      </ul>
+    </section>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">Two Stripes</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/Np5tr7duFyk" target="_blank" rel="noopener">Kimura from Guard</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/7OlofenUQgQ" target="_blank" rel="noopener">Lapel Choke "B"</a></li>
+        <li class="video-item"><span class="video-num">3</span><a class="video-link" href="https://youtu.be/gP4vvx0wTLI" target="_blank" rel="noopener">Side Fall</a></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/0llEBNm8Ofc" target="_blank" rel="noopener">Taking the Back from Guard</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/lHRoz1Ddclc" target="_blank" rel="noopener">Transition from Closed to Open Guard</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/n_-w6jK5ArY" target="_blank" rel="noopener">Cross Choke from Guard</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/SGZbwGjE9FE" target="_blank" rel="noopener">Defense to Armbar from Mount</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/qUlrkinsZO0" target="_blank" rel="noopener">Defense to Parallel Choke</a></li>
+        <li class="video-item"><span class="video-num">9</span><a class="video-link" href="https://youtu.be/r_vfKUAyQ1k" target="_blank" rel="noopener">Defense to the Cross Choke</a></li>
+        <li class="video-item"><span class="video-num">10</span><a class="video-link" href="https://youtu.be/36AICKbN_1U" target="_blank" rel="noopener">Guillotine from Guard</a></li>
+      </ul>
+    </section>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">Three Stripes</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/UXhMpp2rfQo" target="_blank" rel="noopener">Guard Pass w/ 1 Knee Up - Opp. Reaching In</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/UXhMpp2rfQo" target="_blank" rel="noopener">Guard Pass w/ 2-on-1 Grip on the Knees</a></li>
+        <li class="video-item"><span class="video-num">3</span><a class="video-link" href="https://youtu.be/636GEeBkJYU" target="_blank" rel="noopener">Lapel Choke "C" w/ Hooks</a></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/46LTgWXktf0" target="_blank" rel="noopener">Sprawl Drill w/ Ball</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/3c8DwY713AI" target="_blank" rel="noopener">Armlock from 2nd Immob.</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/94Amnj44uJw" target="_blank" rel="noopener">Defense to the Cross Choke from Guard</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/e3lEoQ9cH7U" target="_blank" rel="noopener">Front Fall</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/b6y0PtvuZ98" target="_blank" rel="noopener">Guard Pass w/ 1 Knee Up</a></li>
+      </ul>
+    </section>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">Four Stripes</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/-cQVAakwG6g" target="_blank" rel="noopener">Shoulder Sweep</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/qyVUgBPW2Ps" target="_blank" rel="noopener">Side Control Position Drill</a></li>
+        <li class="video-item"><span class="video-num">3</span><a class="video-link" href="https://youtu.be/Z_cgTj-QITQ" target="_blank" rel="noopener">Sprawl</a></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/oF6pueIi7I8" target="_blank" rel="noopener">Technical Mount Drill</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/lwnjFTnzQhc" target="_blank" rel="noopener">Koshi-Guruma (Head &amp; Arm Throw)</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/XTR2G_YFuyk" target="_blank" rel="noopener">Lapel Chokes "A," "B," &amp; "C" in Succession</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/kZYAQqQSKrs" target="_blank" rel="noopener">Mount Position Drill</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/iQZ3Amjl7yk" target="_blank" rel="noopener">Pushing Off Wall Drill</a></li>
+      </ul>
+    </section>
+
+  </div>
+</main>
+
+<footer id="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+      <img src="brand_assets/logo.svg" alt="" aria-hidden="true" style="height:36px;width:auto" onerror="this.style.display='none'">
+        Aamerican Colleges of Jiu-Jitsu and Karate
+      </a>
+      <p>Aamerican Colleges of Jiu-Jitsu and Karate is Henrico's premier martial arts academy. We develop champions on and off the mats through world-class instruction and a supportive community.</p>
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="white" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="#" class="social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="white" d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon fill="#06101e" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg></a>
+        <a href="#" class="social-link" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="white" d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.85a8.17 8.17 0 004.77 1.52V6.93a4.85 4.85 0 01-1-.24z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Programs</h3>
+      <ul>
+        <li><a href="program-1.html">Aam-Ka Jiu-Jitsu</a></li>
+        <li><a href="program-2.html">Brazilian Jiu-Jitsu</a></li>
+        <li><a href="program-3.html">Aikido</a></li>
+        <li><a href="program-4.html">Boxing</a></li>
+        <li><a href="program-5.html">After-School & Summer Camp</a></li>
+        
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Useful Resources</h3>
+      <ul>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="#" onclick="openModal('modal-trial');return false">Book Free Trial</a></li>
+        <li><a href="#" onclick="openModal('modal-kit');return false">Pricing &amp; Schedule</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="index.html#instructors">Our Coaches</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="bjj-videos.html">BJJ Videos</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+      <address style="font-style:normal">
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>11250 Patterson Ave<br>Henrico, VA 23238</div>
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:(804) 651-9388">(804) 651-9388</a></div>
+        
+        
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Aamerican Colleges of Jiu-Jitsu and Karate. All rights reserved.</p>
+    <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Sitemap</a></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  var nt=document.getElementById('nav-toggle'),mn=document.getElementById('main-nav');
+  if(nt&&mn){
+    nt.addEventListener('click',function(){var o=mn.classList.toggle('open');nt.classList.toggle('active',o);nt.setAttribute('aria-expanded',o?'true':'false')});
+    mn.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mn.classList.remove('open');nt.classList.remove('active');nt.setAttribute('aria-expanded','false')})});
+  }
+  document.querySelectorAll('.nav-dropdown').forEach(function(dd){
+    var t=null;
+    dd.addEventListener('mouseenter',function(){clearTimeout(t);dd.classList.add('open')});
+    dd.addEventListener('mouseleave',function(){t=setTimeout(function(){dd.classList.remove('open')},300)});
+  });
+  var hdr=document.getElementById('header');
+  window.addEventListener('scroll',function(){hdr.style.boxShadow=window.scrollY>10?'0 2px 28px rgba(0,0,0,.14)':'0 2px 20px rgba(0,0,0,.07)';},{passive:true});
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(e){e.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})},{threshold:0.1,rootMargin:'0px 0px -36px 0px'});
+    document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el)});
+  } else { document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('visible')}); }
+  window.openModal=function(id){var el=document.getElementById(id);if(!el)return;el.classList.add('open');document.body.style.overflow='hidden'};
+  window.closeModal=function(id){var el=document.getElementById(id);if(!el)return;el.classList.remove('open');document.body.style.overflow=''};
+  window.closeOnOverlay=function(e,id){if(e.target===e.currentTarget)closeModal(id)};
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.querySelectorAll('.modal-overlay.open').forEach(function(m){m.classList.remove('open')});document.body.style.overflow=''}});
+}());
+</script>
+</body>
+</html>
