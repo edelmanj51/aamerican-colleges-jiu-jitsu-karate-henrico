@@ -74,8 +74,17 @@
     .belt-page{padding:40px 24px 100px}
     .belt-title{font-size:clamp(28px,4vw,44px);font-weight:900;color:var(--dark);margin-bottom:8px}
     .belt-page-sub{font-size:15px;color:var(--gray);margin-bottom:40px}
-    .pending-card{max-width:560px;background:var(--light);border:1.5px dashed var(--gray-light);border-radius:var(--radius-lg);padding:36px;text-align:center}
-    .pending-card p{color:var(--gray);font-size:15px;line-height:1.7}
+    .stripe-block{margin-bottom:44px}
+    .stripe-heading{font-size:15px;font-weight:800;color:var(--white);background:var(--blue);display:inline-block;padding:8px 18px;border-radius:20px;margin-bottom:16px;letter-spacing:.3px}
+    .video-list{display:flex;flex-direction:column;gap:10px}
+    .video-item{display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:var(--radius);border:1.5px solid var(--gray-light);background:var(--white);transition:var(--transition)}
+    .video-item:hover{border-color:var(--blue);box-shadow:var(--shadow)}
+    .video-num{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:var(--light);color:var(--gray);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+    .video-link{flex:1;font-size:15px;font-weight:600;color:var(--dark);display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .video-link::after{content:'▶ Watch';flex-shrink:0;font-size:12px;font-weight:700;color:var(--blue);letter-spacing:.3px}
+    .video-link:hover{color:var(--blue)}
+    .video-item--noLink{opacity:.65}
+    .video-title-only{flex:1;font-size:15px;color:var(--gray);font-style:italic}
     /* ── Scroll reveal ── */
     .reveal{opacity:0;transform:translateY(28px);transition:opacity .55s ease,transform .55s ease}
     .reveal.visible{opacity:1;transform:translateY(0)}
@@ -155,9 +164,86 @@
   <div class="container">
     <h1 class="belt-title reveal">White Belt</h1>
     <p class="belt-page-sub reveal">Curriculum videos grouped by stripe. Click any title to watch on YouTube.</p>
-    <div class="pending-card reveal">
-      <p>White Belt videos are being added — check back soon, or reach out to your instructor if you need a specific technique before then.</p>
-    </div>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">No Stripe</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/bfUQhPOwxxo" target="_blank" rel="noopener">Hip escape (Backward Shrimp)</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/6z5uOsbudlA" target="_blank" rel="noopener">1st Immobilization (Side Control)</a></li>
+        <li class="video-item"><span class="video-num">3</span><a class="video-link" href="https://youtu.be/4yua1gICoag" target="_blank" rel="noopener">3rd Immobilization (North/South)</a></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/cGasqpGxxdk" target="_blank" rel="noopener">Closed Guard Position</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/D2hnQ2neeM8" target="_blank" rel="noopener">Back Fall from Sitting</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/kFIf7tG131k" target="_blank" rel="noopener">Bridge Hip Elevation (Basic)</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/A5bFpkEbssg" target="_blank" rel="noopener">2nd Immobilization (Head &amp; Arm)</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/UJVAont792g" target="_blank" rel="noopener">Mount Position</a></li>
+        <li class="video-item"><span class="video-num">9</span><a class="video-link" href="https://youtu.be/GFIdUdyw6LA" target="_blank" rel="noopener">Back Position w/ Hooks &amp; Seatbelt</a></li>
+        <li class="video-item"><span class="video-num">10</span><a class="video-link" href="https://youtu.be/StRFi4goG50" target="_blank" rel="noopener">Front Fall from Knees</a></li>
+      </ul>
+    </section>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">One Stripe</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/FBGNd7l2lwE" target="_blank" rel="noopener">Turtle Position w/ Seatbelt</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/LKaX2tIXO2A" target="_blank" rel="noopener">1st Immob. w/ Cem Kilos (Hip Switch)</a></li>
+        <li class="video-item video-item--noLink"><span class="video-num">3</span><span class="video-title-only">Americana From Side Control — no video link provided, confirm with client</span></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/G_E7XMvVhQE" target="_blank" rel="noopener">Escape From Side Control - Pulling Guard</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/tPcULaWrjys" target="_blank" rel="noopener">Open Guard Position</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/cBOzAArZfe0" target="_blank" rel="noopener">Mount Position w/ Airplane</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/yWygLQ7-MFo" target="_blank" rel="noopener">Triangle Drill (Basic)</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/NiiSVaJyNgA" target="_blank" rel="noopener">Armbar Escape Drill</a></li>
+        <li class="video-item"><span class="video-num">9</span><a class="video-link" href="https://youtu.be/69cmb3GxsVg" target="_blank" rel="noopener">Bridge Reaching Over Shoulder</a></li>
+        <li class="video-item"><span class="video-num">10</span><a class="video-link" href="https://youtu.be/3P7F5ZH1w5s" target="_blank" rel="noopener">Back Pos. w/ Hooks &amp; RNC "A"</a></li>
+      </ul>
+    </section>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">Two Stripes</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/XXrYtASl8WE" target="_blank" rel="noopener">Back Pos. w/ Hooks &amp; RNC "B"</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/cn_1_ml2wTQ" target="_blank" rel="noopener">Push-Pull Takedown</a></li>
+        <li class="video-item video-item--noLink"><span class="video-num">3</span><span class="video-title-only">Guard Recovery from Mount — no video link provided, confirm with client</span></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/T6_-o6tlC2I" target="_blank" rel="noopener">O-Soto-Gari</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/nr6SE62zL6Y" target="_blank" rel="noopener">Escape from Mount w/ 2-on-1 Grip + Bridge &amp; Roll</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/Ux4VlBNB_wc" target="_blank" rel="noopener">High Mount Position</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/7E0gUbp23CU" target="_blank" rel="noopener">Half Guard Position</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/sAyu_dqOhhI" target="_blank" rel="noopener">Hip Escape (Front Shrimp)</a></li>
+        <li class="video-item"><span class="video-num">9</span><a class="video-link" href="https://youtu.be/vq2YPujGmOM" target="_blank" rel="noopener">Bridge &amp; Roll to All Fours</a></li>
+        <li class="video-item"><span class="video-num">10</span><a class="video-link" href="https://youtu.be/ygee3IbKRTI" target="_blank" rel="noopener">Low Triangle Drill (Hip On Ground)</a></li>
+      </ul>
+    </section>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">Three Stripes</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/MpObImfIx98" target="_blank" rel="noopener">Moroto-gari (Double-Leg Takedown)</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/dPNF9Jq4NGE" target="_blank" rel="noopener">High Mount w/ Arm Bar</a></li>
+        <li class="video-item"><span class="video-num">3</span><a class="video-link" href="https://youtu.be/nZ2ivH14CRk" target="_blank" rel="noopener">Escape From Mount - Airplane Arm Trap (Bridge &amp; Roll)</a></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/L_n7pE5PnQw" target="_blank" rel="noopener">Standing Guard Pass - Throwing Legs to Side (Not Letting Go)</a></li>
+        <li class="video-item"><span class="video-num">5</span><a class="video-link" href="https://youtu.be/SHbWJF9CtEE" target="_blank" rel="noopener">Front Rolls</a></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/XXrYtASl8WE" target="_blank" rel="noopener">Back Pos. w/ Hooks &amp; RNC "C"</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/O8n7Vt6qrCs" target="_blank" rel="noopener">Shrimping In Place</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/bpJC4H0DO5Y" target="_blank" rel="noopener">High Triangle Drill (Hips Off Ground)</a></li>
+        <li class="video-item video-item--noLink"><span class="video-num">9</span><span class="video-title-only">1st to 3rd Immob. (Side Control to North-South) — no video link provided, confirm with client</span></li>
+        <li class="video-item"><span class="video-num">10</span><a class="video-link" href="https://youtu.be/LWNvK-GHxaQ" target="_blank" rel="noopener">Single-Leg from Reaching O-soto-gari</a></li>
+      </ul>
+    </section>
+
+    <section class="stripe-block reveal">
+      <h2 class="stripe-heading">Four Stripes</h2>
+      <ul class="video-list">
+        <li class="video-item"><span class="video-num">1</span><a class="video-link" href="https://youtu.be/9uaT6ijZYLw" target="_blank" rel="noopener">Side Control &gt; Cem Kilos &gt; High Side Control</a></li>
+        <li class="video-item"><span class="video-num">2</span><a class="video-link" href="https://youtu.be/O-8DISI_mgA" target="_blank" rel="noopener">Rear Naked Chokes "A," "B," and "C" In Succession</a></li>
+        <li class="video-item"><span class="video-num">3</span><a class="video-link" href="https://youtu.be/eIsnTwMx_Rs" target="_blank" rel="noopener">Escape from 2nd Immobilization (Leg Over Head)</a></li>
+        <li class="video-item"><span class="video-num">4</span><a class="video-link" href="https://youtu.be/VOnDp4udRu8" target="_blank" rel="noopener">Standing Guard Pass (Pressing Legs Down)</a></li>
+        <li class="video-item video-item--noLink"><span class="video-num">5</span><span class="video-title-only">Basic Guard Pass (Elbows) — no video link provided, confirm with client</span></li>
+        <li class="video-item"><span class="video-num">6</span><a class="video-link" href="https://youtu.be/s5hkkPMZm30" target="_blank" rel="noopener">Back Fall From Standing (Butt, Back, Slap)</a></li>
+        <li class="video-item"><span class="video-num">7</span><a class="video-link" href="https://youtu.be/7-Nwtpl6iCg" target="_blank" rel="noopener">Backwards Roll</a></li>
+        <li class="video-item"><span class="video-num">8</span><a class="video-link" href="https://youtu.be/SnGRREQMQds" target="_blank" rel="noopener">Guard Spinning w/ Opp. in Motion</a></li>
+        <li class="video-item"><span class="video-num">9</span><a class="video-link" href="https://youtu.be/o9xJc6NVu8w" target="_blank" rel="noopener">Step-Out Drill</a></li>
+        <li class="video-item video-item--noLink"><span class="video-num">10</span><span class="video-title-only">Guard Position - Pulling Opp. Down, Wrapping Arm Around Head — no video link provided, confirm with client</span></li>
+      </ul>
+    </section>
   </div>
 </main>
 
