@@ -30,7 +30,9 @@ HERO_SUBTEXT: "Authentic Jiu-Jitsu, Karate, and BJJ — plus After-School Care a
 # flow above. Shown as a secondary row under the hero CTAs.
 EVENING_REGISTRY_URL: "https://sparkpages.io/forms/?frm=_fOv"
 AFTER_SCHOOL_REGISTRY_URL: "https://sparkpages.io/forms/?frm=_8zx"
-SUMMER_CAMP_REGISTRY_URL: "https://sparkpages.io/forms/?frm=_Q1u"
+# Summer Camp Registry button hidden for fall — the [IF:] block in index.html
+# only renders when this has a value. Re-add the URL to bring it back next summer.
+SUMMER_CAMP_REGISTRY_URL: ""
 
 # Brand story video — embedded directly below the hero on the homepage.
 BRAND_VIDEO_EMBED_URL: "https://www.youtube.com/embed/DGhbwpnIvRc"
@@ -107,7 +109,6 @@ PROGRAM_5_REGISTRY_HTML: |
     <span class="final-registry-label">Already enrolled? Re-register here:</span>
     <div class="final-registry-links">
       <a class="btn btn-ghost btn-sm" href="https://sparkpages.io/forms/?frm=_8zx" target="_blank" rel="noopener">After School Registry</a>
-      <a class="btn btn-ghost btn-sm" href="https://sparkpages.io/forms/?frm=_Q1u" target="_blank" rel="noopener">Summer Camp Registry</a>
     </div>
   </div>
 
